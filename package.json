@@ -1,0 +1,22 @@
+{
+  "name": "full-api-demo",
+  "version": "1.0.0",
+  "description": "example code to bring things together",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "author": "Colin Stephen",
+  "license": "ISC",
+  "dependencies": {
+    "node-persist": "^2.1.0",
+    "request": "^2.88.0",
+    "restify": "^4.3.4",
+    "restify-cors-middleware": "^1.1.1",
+    "uuid": "^3.3.2"
+  },
+  "devDependencies": {
+    "jasmine-node": "^2.0.1",
+    "rewire": "^2.5.2"
+  }
+}
