@@ -56,5 +56,3 @@ exports.delete =  (req, res) => {
 		return res.send(`News with ${newsid} deleted from your favourites`)
 	})
 }
-
-
