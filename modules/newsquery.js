@@ -9,10 +9,6 @@ exports.doNewSearch = (q, callback) => {
     const date = Today.getFullYear() + "-" + (Today.getMonth()+1) + Today.getDate();
     const url = `http://newsapi.org/v2/everything?q=${q}&from=` + date + `&sortBy=publishedAt&apiKey=e3cdb4497f51461bbef202419bdc2b86`
     
-    //unl=`http://newsapi.org/v2/everything?q=19&from=2020-04-09&sortBy=publishedAt&apiKey=e3cdb4497f51461bbef202419bdc2b86`;
-    //const url = `https://www.googleapis.com/books/v1/volumes?q=${q}`
-
-
     request.get(url, function(error, response, body) {
         if (!error && response.statusCode === 200) {
             const newss = []
