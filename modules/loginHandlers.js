@@ -10,4 +10,3 @@ exports.check = (req, res) => {
       res.send(` Welcome ${username} ! `)
 	
 }
-
