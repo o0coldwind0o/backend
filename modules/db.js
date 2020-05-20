@@ -11,7 +11,6 @@ exports.dbConnection = function dbConnection(dbName, callback) {
 	const db = storage.create({dir: `./node-persist/${dbName}`})
 
 	db.init(err => {
-
 		if (err) {
 			return callback({message: 'Unable to initialise data store'})
 		} else {
