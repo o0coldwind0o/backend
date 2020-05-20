@@ -1,7 +1,6 @@
 // file to do CRUD operations of users' favourites (saving, updating, etc.)
 
 'use strict'
-
 const db = require('./db')
 let dbConnection = db.dbConnection  // use 'let' so we can override it in testing
 
