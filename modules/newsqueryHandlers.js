@@ -13,6 +13,4 @@ exports.doNewSearch = (req, res, next) => {
 		return  res.send(result)
 		 		
 	})
-
-
 }
