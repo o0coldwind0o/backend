@@ -81,7 +81,6 @@ exports.confirm = function confirm(username, code, callback) {
 
 }
 
-
 exports.delete = function delete_(username, callback) {
 
     // connect to the db and delete the given user

@@ -51,7 +51,6 @@ exports.confirm = function confirmHandler(req, res, next) {
 	})
 
 }
-	
 												
 exports.delete = function deleteHandler (req, res, next) {
 
