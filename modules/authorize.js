@@ -22,5 +22,4 @@ exports.check = (auth, callback) => {
         
         return callback({message: 'Username or password incorrect, or registration not confirmed'})
     })
-
 }
