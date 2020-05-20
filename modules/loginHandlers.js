@@ -5,8 +5,6 @@
 
 
 exports.check = (req, res) => {
-	const username = req.authorization.basic.username
-	//console.log(username) 
+	const username = req.authorization.basic.username 
       res.send(` Welcome ${username} ! `)
-	
 }
